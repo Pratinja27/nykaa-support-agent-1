@@ -1,0 +1,63 @@
+Precision@3 and Recall@3 for both collections
+
+== fixed ==
+Q: What is the return window for electronics?
+  relevant: ['return_window']
+  retrieved docs (deduped): ['warranty', 'return_window', 'damaged_item']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: How many days does a COD refund take?
+  relevant: ['cod_refund']
+  retrieved docs (deduped): ['cod_refund', 'cancellation']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: When is reverse pickup cancelled?
+  relevant: ['reverse_pickup']
+  retrieved docs (deduped): ['reverse_pickup', 'cancellation']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: Can I redeem loyalty points on a COD order?
+  relevant: ['loyalty_points']
+  retrieved docs (deduped): ['loyalty_points', 'cod_refund']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: Do you ship orders outside India?
+  relevant: ['international_shipping']
+  retrieved docs (deduped): ['international_shipping', 'gift_wrap']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+average Precision@3 = 0.333
+average Recall@3 = 1.000
+
+== sentence ==
+Q: What is the return window for electronics?
+  relevant: ['return_window']
+  retrieved docs (deduped): ['return_window', 'damaged_item']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: How many days does a COD refund take?
+  relevant: ['cod_refund']
+  retrieved docs (deduped): ['cod_refund', 'damaged_item']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: When is reverse pickup cancelled?
+  relevant: ['reverse_pickup']
+  retrieved docs (deduped): ['reverse_pickup']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: Can I redeem loyalty points on a COD order?
+  relevant: ['loyalty_points']
+  retrieved docs (deduped): ['loyalty_points', 'cod_refund']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+Q: Do you ship orders outside India?
+  relevant: ['international_shipping']
+  retrieved docs (deduped): ['international_shipping']
+  Precision@3 = 1/3 = 0.333
+  Recall@3 = 1/1 = 1.000
+average Precision@3 = 0.333
+average Recall@3 = 1.000
+off-topic parent docs in top-3 (after dedupe): fixed=6 sentence=3
+
+Recommendation: use the sentence collection.
+P@3 and R@3 match, but sentence retrieval pulled 3 off-topic parent docs vs 6 for fixed, so the gold policy stays cleaner. Average P@3/R@3 was sentence 0.333/1.000 vs fixed 0.333/1.000.

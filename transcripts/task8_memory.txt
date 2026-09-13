@@ -1,0 +1,38 @@
+Transcript 1 — existing conversation
+turn 1: Please remember my order NYK-1012.
+{
+  "answer": "Order NYK-1012 is Delivered. Order value is INR 6464. Delayed shipment is False. Days since created: 26. Escalation score 0.35 is below the threshold.",
+  "intent": "order_status",
+  "grounded": true,
+  "sources": [],
+  "record_id": "NYK-1012",
+  "escalation_score": 0.3467,
+  "escalate": false
+}
+
+turn 2: What is the status of my order?
+{
+  "answer": "Order NYK-1012 is Delivered. Order value is INR 6464. Delayed shipment is False. Days since created: 26. Escalation score 0.35 is below the threshold.",
+  "intent": "order_status",
+  "grounded": true,
+  "sources": [],
+  "record_id": "NYK-1012",
+  "escalation_score": 0.3467,
+  "escalate": false
+}
+
+remembered last_record_id: NYK-1012
+
+Transcript 2 — fresh conversation
+turn 1: What is the status of my order?
+{
+  "answer": "I don't know. No order was found for that record id.",
+  "intent": "order_status",
+  "grounded": true,
+  "sources": [],
+  "record_id": "",
+  "escalation_score": null,
+  "escalate": false
+}
+
+fresh last_record_id: None

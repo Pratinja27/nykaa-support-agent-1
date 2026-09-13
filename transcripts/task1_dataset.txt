@@ -1,0 +1,11 @@
+seed: 42
+orders: 50
+category counts: {'Footwear': 6, 'Beauty': 18, 'Apparel': 12, 'Home': 8, 'Electronics': 6}
+status counts: {'Placed': 9, 'Delivered': 20, 'Shipped': 11, 'Refunded': 5, 'Returned': 5}
+delayed shipment percentage: 22.00%
+amount range: INR 199 to 14999
+price range reasoning: Nykaa mixes drugstore beauty, apparel and a smaller electronics/home range, so 199-14999 INR covers everyday SKUs without luxury outliers.
+escalation formula: 0.60 * delayed_flag + 0.40 * (days_since_created / 30)
+escalation score 80th percentile: 0.632
+escalation threshold: 0.63
+delayed shipment percentage: 22.00

@@ -1,0 +1,35 @@
+{
+  "thread_id": "nykaa-ckpt-1",
+  "checkpoint_db": "C:\\Users\\Acer\\nyka project\\nykaa-support-agent\\checkpoints.sqlite",
+  "after_interrupt_nodes": [
+    "intake",
+    "route"
+  ],
+  "after_resume_nodes": [
+    "intake",
+    "route",
+    "lookup",
+    "reply"
+  ],
+  "interrupt_state_seen": [
+    "intake",
+    "route"
+  ],
+  "final_seen": [
+    "intake",
+    "route",
+    "lookup",
+    "reply"
+  ],
+  "final_answer": "done for status of NYK-1001",
+  "next_after_interrupt": [
+    "lookup"
+  ],
+  "completed_nodes_reexecuted": false,
+  "exec_log": [
+    "intake 1789286245.6114259",
+    "route 1789286245.6133285",
+    "lookup 1789286245.6282647",
+    "reply 1789286245.6309297"
+  ]
+}

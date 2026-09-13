@@ -1,0 +1,65 @@
+RAG triad (15 queries) under MOCK_LLM
+
+Q1 [kb] What is the return window for beauty and electronics?
+  context_relevance=0.158  groundedness=1.000  answer_relevance=0.158
+  answer: Electronics and home appliances follow a 10-day doorstep return window only when the box and serial seal are unused. Beauty products have no functional warranty after the seal is opened, only a manufacturing-defect claim within 7 days. The support desk then arranges a replacement or refund after a 1-day QC check.
+
+Q2 [kb] How long do COD refunds take after warehouse receipt?
+  context_relevance=0.079  groundedness=1.000  answer_relevance=0.079
+  answer: Once the return is marked received at the warehouse, Nykaa starts a COD refund and it usually lands in 5 to 7 working days. Prepaid refunds are faster, but this note is only about COD. Cash on delivery refunds are not instant because the cash has to be reconciled with the courier.
+
+Q3 [kb] What is the delivery SLA for metro pin codes?
+  context_relevance=0.182  groundedness=1.000  answer_relevance=0.182
+  answer: Metro pin codes are promised delivery in 2 to 4 days after the order is packed. Reverse pickup is offered when the item is eligible for return and the pin code is serviceable by the courier. Non-metro cities take 4 to 7 days and remote north-east or hill pin codes can take up to 10 days.
+
+Q4 [kb] When is reverse pickup offered and when is it cancelled?
+  context_relevance=0.240  groundedness=1.000  answer_relevance=0.240
+  answer: Reverse pickup is offered when the item is eligible for return and the pin code is serviceable by the courier. Reverse pickup is cancelled if the customer is unavailable on two scheduled attempts. Beauty and apparel usually get a free reverse pickup.
+
+Q5 [kb] What warranty applies to electronics and beauty products?
+  context_relevance=0.135  groundedness=1.000  answer_relevance=0.135
+  answer: Beauty products have no functional warranty after the seal is opened, only a manufacturing-defect claim within 7 days. Electronics sold on Nykaa carry the brand warranty printed on the invoice, commonly 6 or 12 months from the delivery date. Home appliances follow the brand warranty card, and Nykaa only helps raise the ticket.
+
+Q6 [kb] Can I cancel an order after it is packed or shipped?
+  context_relevance=0.156  groundedness=1.000  answer_relevance=0.156
+  answer: After packed or shipped, cancellation is closed and the customer must refuse delivery or raise a return. An order can be cancelled from the app until the warehouse marks it packed. Multi-item orders cannot be partly cancelled after packing; unused items have to follow return.
+
+Q7 [kb] How do I redeem Nykaa loyalty points and when do they expire?
+  context_relevance=0.129  groundedness=1.000  answer_relevance=0.129
+  answer: Points expire 12 months after they are credited. Nykaa reward points can be redeemed only on the next prepaid order, not on COD. Nykaa gift wrap is available on prepaid beauty orders above 499 rupees.
+
+Q8 [kb] What happens if my card or UPI payment fails?
+  context_relevance=0.108  groundedness=0.686  answer_relevance=0.154
+  answer: If a card or UPI debit fails, Nykaa does not create an order and no inventory is blocked. Three failed retries in a row lock the payment method for 2 hours as a fraud check.
+
+Q9 [kb] How does size exchange work for apparel and footwear?
+  context_relevance=0.194  groundedness=1.000  answer_relevance=0.194
+  answer: Size exchange is allowed on apparel and footwear within 15 days if the unused piece is returned with tags. Beauty, innerwear and jewellery are not eligible for size exchange. If the requested size is out of stock, a refund is issued instead of a forced exchange.
+
+Q10 [kb] How do I claim a damaged item after delivery?
+  context_relevance=0.121  groundedness=1.000  answer_relevance=0.121
+  answer: A damaged or wrong item must be reported within 48 hours of delivery with unboxing photos. Do not throw the outer carton until the claim is closed. Electronics sold on Nykaa carry the brand warranty printed on the invoice, commonly 6 or 12 months from the delivery date.
+
+Q11 [kb] Does Nykaa accept international shipping or overseas addresses?
+  context_relevance=0.139  groundedness=1.000  answer_relevance=0.139
+  answer: Nykaa currently ships only inside India and does not accept international checkout. If a card or UPI debit fails, Nykaa does not create an order and no inventory is blocked. Customers travelling abroad should use an Indian delivery address and are responsible for any onward shipping.
+
+Q12 [kb] When does a support ticket move from L1 to L2 or L3?
+  context_relevance=0.026  groundedness=0.441  answer_relevance=0.050
+  answer: If the issue involves a delayed shipment older than the SLA or an order value above 8000 rupees, the ticket moves to L2.
+
+Q13 [out_of_scope] Who won the cricket world cup last year?
+  context_relevance=0.000  groundedness=1.000  answer_relevance=0.200
+  answer: I don't know. The knowledge base does not cover this question.
+
+Q14 [edge] Can I return a used lipstick after 45 days?
+  context_relevance=0.068  groundedness=1.000  answer_relevance=0.068
+  answer: Beauty that stays sealed can come back within 7 days of delivery, while apparel and footwear get 15 days if tags and hygiene stickers are intact. Beauty products have no functional warranty after the seal is opened, only a manufacturing-defect claim within 7 days. The customer can retry the same cart within 30 minutes without losing the applied coupon.
+
+Q15 [kb] What is the COD refund timeline for a returned footwear order?
+  context_relevance=0.103  groundedness=1.000  answer_relevance=0.103
+  answer: Once the return is marked received at the warehouse, Nykaa starts a COD refund and it usually lands in 5 to 7 working days. Footwear has no separate warranty beyond the return window unless the seller lists one. Prepaid refunds are faster, but this note is only about COD.
+
+Average context relevance: 0.123
+Average groundedness: 0.942
+Average answer relevance: 0.141

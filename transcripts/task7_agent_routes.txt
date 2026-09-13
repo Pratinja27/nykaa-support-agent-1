@@ -1,0 +1,26 @@
+LangGraph route demonstrations
+
+RAG route query: What is the return window for beauty products?
+{
+  "answer": "Beauty products have no functional warranty after the seal is opened, only a manufacturing-defect claim within 7 days. Beauty that stays sealed can come back within 7 days of delivery, while apparel and footwear get 15 days if tags and hygiene stickers are intact. Nykaa accepts returns based on the product type, not a single store-wide day count.",
+  "intent": "policy",
+  "grounded": true,
+  "sources": [
+    "warranty",
+    "return_window"
+  ],
+  "record_id": null,
+  "escalation_score": null,
+  "escalate": null
+}
+
+Order route query: What is the status of order NYK-1001?
+{
+  "answer": "Order NYK-1001 is Placed. Order value is INR 3085. Delayed shipment is False. Days since created: 8. Escalation score 0.11 is below the threshold.",
+  "intent": "order_status",
+  "grounded": true,
+  "sources": [],
+  "record_id": "NYK-1001",
+  "escalation_score": 0.1067,
+  "escalate": false
+}

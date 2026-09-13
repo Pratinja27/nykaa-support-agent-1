@@ -1,0 +1,9 @@
+Threshold calibration (top-1 cosine, sentence collection)
+IN  0.4904  What is the return window for apparel and beauty products?
+IN  0.7629  How long does a COD refund take after the warehouse receives the return?
+IN  0.6976  What is the delivery SLA for metro pin codes?
+OUT 0.1298  Who won the cricket world cup last year?
+OUT 0.2497  How do I file income tax returns in India?
+in-scope cluster: [0.4904, 0.7629, 0.6976]
+out-of-scope cluster: [0.1298, 0.2497]
+chosen threshold: 0.35 (between the two clusters)

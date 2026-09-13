@@ -1,0 +1,15 @@
+A. Input PII masking
+raw: My number is 9876543210 and card ending 4242, what is the COD refund time?
+masked: My number is ********** and card ending ****, what is the COD refund time?
+agent answer: Once the return is marked received at the warehouse, Nykaa starts a COD refund and it usually lands in 5 to 7 working days. Prepaid refunds are faster, but this note is only about COD. Prepaid amounts for cancelled-before-pack orders go back to the source in 3 to 5 working days.
+
+B. Prompt-injection detection
+blocked: True
+agent answer: Request blocked by the prompt-injection guardrail.
+
+C. Output groundedness check
+unsupported answer: Nykaa will gift you a free iPhone if you wait 2 hours.
+context: COD refunds usually land in 5 to 7 working days.
+groundedness_ok: False (guardrail fired)
+
+Structured output validated: True

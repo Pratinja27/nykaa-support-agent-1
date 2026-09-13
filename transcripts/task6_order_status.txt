@@ -1,0 +1,24 @@
+[
+  {
+    "found": true,
+    "record_id": "NYK-1001",
+    "status": "Placed",
+    "order_value_inr": 3085,
+    "category": "Footwear",
+    "days_since_created": 8,
+    "delayed_shipment": false,
+    "escalation_score": 0.1067,
+    "escalate": false
+  },
+  {
+    "found": true,
+    "record_id": "NYK-1010",
+    "status": "Shipped",
+    "order_value_inr": 4132,
+    "category": "Home",
+    "days_since_created": 2,
+    "delayed_shipment": true,
+    "escalation_score": 0.6267,
+    "escalate": false
+  }
+]

@@ -1,0 +1,22 @@
+POST /ask
+request: {"query":"What is the COD refund time for 9876543210 card ending 4242?","session_id":"api-demo"}
+response:
+{
+  "answer": "Once the return is marked received at the warehouse, Nykaa starts a COD refund and it usually lands in 5 to 7 working days. Prepaid amounts for cancelled-before-pack orders go back to the source in 3 to 5 working days. Prepaid refunds are faster, but this note is only about COD.",
+  "intent": "policy",
+  "grounded": true,
+  "sources": ["cod_refund", "cancellation"],
+  "record_id": null,
+  "escalation_score": null,
+  "escalate": null,
+  "trace_id": "32ef4a3d70674d978bfbc7bf1294e3a5"
+}
+
+POST /add-document
+request: {"title":"Gift wrap note","text":"Nykaa gift wrap is available on prepaid beauty orders above 499 rupees. Gift wrap is not offered on COD or on sale SKUs.","doc_id":"gift_wrap"}
+response:
+{
+  "doc_id": "gift_wrap",
+  "chunks_added": 2,
+  "trace_id": "218e3bf62b15460b9f78cf8216fe95a9"
+}

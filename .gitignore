@@ -14,5 +14,3 @@ data/memory.json
 .vscode/
 .env
 .DS_Store
-transcripts/*
-!transcripts/.gitkeep

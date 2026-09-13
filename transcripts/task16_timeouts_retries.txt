@@ -1,0 +1,41 @@
+{
+  "node_timeout": {
+    "fired": true,
+    "error": "call exceeded 1.0s"
+  },
+  "global_timeout": {
+    "fired": true,
+    "error": "call exceeded 2.0s"
+  },
+  "retry": {
+    "attempts": 3,
+    "value": {
+      "recovered": true,
+      "attempt": 3
+    },
+    "log": [
+      {
+        "attempt": 1,
+        "ok": false,
+        "waited": 0.229,
+        "error": "simulated gateway timeout on attempt 1"
+      },
+      {
+        "attempt": 2,
+        "ok": false,
+        "waited": 0.428,
+        "error": "simulated gateway timeout on attempt 2"
+      },
+      {
+        "attempt": 3,
+        "ok": true,
+        "waited": 0
+      }
+    ],
+    "max_attempts": 3,
+    "initial_interval": 0.2,
+    "max_interval": 2.0,
+    "jitter": 0.1,
+    "backoff": "exponential, delay *= 2"
+  }
+}

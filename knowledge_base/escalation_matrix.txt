@@ -1,0 +1,1 @@
+Chat and email tickets start at L1 and stay there for the first 12 hours. If the issue involves a delayed shipment older than the SLA or an order value above 8000 rupees, the ticket moves to L2. Legal, payment-fraud and medical-reaction cases skip to L3 the same day. A customer can ask for a supervisor after one full L1 working day if no resolution note was added.

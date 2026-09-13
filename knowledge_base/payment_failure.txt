@@ -1,0 +1,1 @@
+If a card or UPI debit fails, Nykaa does not create an order and no inventory is blocked. The customer can retry the same cart within 30 minutes without losing the applied coupon. Three failed retries in a row lock the payment method for 2 hours as a fraud check. Any amount that left the bank after a failed order is auto-reversed by the gateway in 3 to 7 working days.

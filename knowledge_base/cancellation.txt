@@ -1,0 +1,1 @@
+An order can be cancelled from the app until the warehouse marks it packed. After packed or shipped, cancellation is closed and the customer must refuse delivery or raise a return. Prepaid amounts for cancelled-before-pack orders go back to the source in 3 to 5 working days. Multi-item orders cannot be partly cancelled after packing; unused items have to follow return.

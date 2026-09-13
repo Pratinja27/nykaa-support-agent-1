@@ -1,6 +1,7 @@
 Each request writes one JSONL line to logs/requests.jsonl.
 PII is masked before the model and before the log.
 
+
 {"trace_id": "32ef4a3d70674d978bfbc7bf1294e3a5", "path": "/ask", "query": "What is the COD refund time for ********** card ending ****?", "intent": "policy", "latency_ms": 20134}
 {"trace_id": "218e3bf62b15460b9f78cf8216fe95a9", "path": "/add-document", "query": "Gift wrap note", "chunks_added": 2, "latency_ms": 39}
 

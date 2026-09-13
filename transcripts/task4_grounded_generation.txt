@@ -1,5 +1,6 @@
 Grounded generation under MOCK_LLM
 
+
 Q: What is the return window for electronics?
 top-1 similarity: 0.5878
 sources: ['return_window', 'damaged_item']

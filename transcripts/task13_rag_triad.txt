@@ -1,5 +1,6 @@
 RAG triad (15 queries) under MOCK_LLM
 
+
 Q1 [kb] What is the return window for beauty and electronics?
   context_relevance=0.158  groundedness=1.000  answer_relevance=0.158
   answer: Electronics and home appliances follow a 10-day doorstep return window only when the box and serial seal are unused. Beauty products have no functional warranty after the seal is opened, only a manufacturing-defect claim within 7 days. The support desk then arranges a replacement or refund after a 1-day QC check.

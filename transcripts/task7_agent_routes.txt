@@ -1,5 +1,6 @@
 LangGraph route demonstrations
 
+
 RAG route query: What is the return window for beauty products?
 {
   "answer": "Beauty products have no functional warranty after the seal is opened, only a manufacturing-defect claim within 7 days. Beauty that stays sealed can come back within 7 days of delivery, while apparel and footwear get 15 days if tags and hygiene stickers are intact. Nykaa accepts returns based on the product type, not a single store-wide day count.",

@@ -1,4 +1,5 @@
 Transcript 1 — existing conversation
+
 turn 1: Please remember my order NYK-1012.
 {
   "answer": "Order NYK-1012 is Delivered. Order value is INR 6464. Delayed shipment is False. Days since created: 26. Escalation score 0.35 is below the threshold.",

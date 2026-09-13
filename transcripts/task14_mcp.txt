@@ -2,6 +2,7 @@ MCP server: http://127.0.0.1:8001/mcp
 Client: separate process, mcp_svc/client.py
 Tool: check_order_status
 
+
 {
   "record_id": "NYK-1001",
   "mcp_response": {

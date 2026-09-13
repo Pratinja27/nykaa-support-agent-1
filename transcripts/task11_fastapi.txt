@@ -1,6 +1,7 @@
 POST /ask
 request: {"query":"What is the COD refund time for 9876543210 card ending 4242?","session_id":"api-demo"}
 response:
+
 {
   "answer": "Once the return is marked received at the warehouse, Nykaa starts a COD refund and it usually lands in 5 to 7 working days. Prepaid amounts for cancelled-before-pack orders go back to the source in 3 to 5 working days. Prepaid refunds are faster, but this note is only about COD.",
   "intent": "policy",
